@@ -34,7 +34,7 @@ client.on("guildMemberAdd", (member) => {
     // Set the color of the embed
     .setColor(0xff0000)
     // Set the main content of the embed
-    .setDescription(`Welcome to the server @${uname}! Have fun in this server.`);
+    .setDescription(`Welcome to the server <@${uname}>! Have fun in this server.`);
   // Send the embed to the same channel as the message
   channel.send(embed);
 });
